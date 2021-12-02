@@ -20,5 +20,5 @@ output "config_map_aws_auth" {
   
 output "ecr_url" {
   description = "ECR Repository URL"
-  value = aws_ecr_repository.opadm_ecr_repo.repository_url
+  value = aws_ecr_repository.ecr_repo.repository_url
 }
