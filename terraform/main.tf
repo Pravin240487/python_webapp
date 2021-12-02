@@ -105,8 +105,8 @@ module "vpc" {
   }
 }
   
-# Create ECR registry to store the ode-pipeline-master docker image
-resource "aws_ecr_repository" "opadm_ecr_repo" {
+# Create ECR registry to store the docker image
+resource "aws_ecr_repository" "ecr_repo" {
   name                 = "${local.name}-ecr"
-  image_tag_mutability = "MUTABLE" # for now, we will allow this to be mutable
+  image_tag_mutability = "MUTABLE"
 }
