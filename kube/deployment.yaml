@@ -29,7 +29,7 @@ spec:
       containers:
       - name: webapp
         image: ecrurl:latest
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         env:
         - name: ATC_USERNAME
           valueFrom:
