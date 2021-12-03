@@ -1,6 +1,6 @@
 # Python Static Website with Kubernetes
 
-![Architecture](Architecture.jpg)
+![Architecture](Arch.jpg)
 
 Steps to deploy:
 
